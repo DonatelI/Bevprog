@@ -2,15 +2,15 @@
 
 int main(){
 	
-	int szam=1;
+  int szam=1;
   int db=0;
 
-	while(szam != 0)
+  while(szam != 0)
   {
-		szam<<=1;
-		db++;
-	}
+	szam<<=1;
+	db++;
+  }
 
-	cout  <<  db  <<;
+  cout  <<  db  <<;
   return 0;
 }
